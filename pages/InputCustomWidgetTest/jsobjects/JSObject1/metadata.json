@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "InputCustomWidgetTest",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "InputCustomWidgetTest_JSObject1",
+  "deleted": false,
+  "gitSyncId": "659f8e0d9caaa500ae62a242_659f91bd4963d6547666af91"
+}

@@ -1,0 +1,2 @@
+INSERT INTO public."companyrec" ("employeeid", "name", "age", "gender")
+  VALUES ({{Input1.text}}, '{{Input2.text}}', '{{Input3.text}}', '{{Select1.selectedOptionLabel}}');

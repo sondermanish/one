@@ -1,0 +1,95 @@
+{
+  "pages": [
+    {
+      "id": "OAuth20",
+      "isDefault": true
+    },
+    {
+      "id": "GSheetsRWDAll",
+      "isDefault": false
+    },
+    {
+      "id": "GSheetsRWDSel1Column",
+      "isDefault": false
+    },
+    {
+      "id": "Firestore",
+      "isDefault": false
+    },
+    {
+      "id": "PostGreSQL",
+      "isDefault": false
+    },
+    {
+      "id": "Mongo",
+      "isDefault": false
+    },
+    {
+      "id": "ElasticSearch",
+      "isDefault": false
+    },
+    {
+      "id": "Oracle",
+      "isDefault": false
+    },
+    {
+      "id": "Redshift",
+      "isDefault": false
+    },
+    {
+      "id": "SMTP",
+      "isDefault": false
+    },
+    {
+      "id": "S3",
+      "isDefault": false
+    },
+    {
+      "id": "Airtable",
+      "isDefault": false
+    },
+    {
+      "id": "Hubspot",
+      "isDefault": false
+    },
+    {
+      "id": "OpenAI",
+      "isDefault": false
+    },
+    {
+      "id": "Inbuilt Framework",
+      "isDefault": false
+    },
+    {
+      "id": "Snowflake",
+      "isDefault": false
+    },
+    {
+      "id": "MainCustomWidgetTest",
+      "isDefault": false
+    },
+    {
+      "id": "InputCustomWidgetTest",
+      "isDefault": false
+    },
+    {
+      "id": "Twilio",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FFEFDB",
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

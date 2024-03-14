@@ -1,0 +1,2 @@
+INSERT INTO public."users" ("id", "name", "createdAt", "updatedAt", "status", "gender", "avatar", "email", "address", "role", "dob", "phoneNo")
+  VALUES ({{Input1.text}}, 'Kevin', TIMESTAMP WITH TIME ZONE '2019-07-01 06:30:00 CET', TIMESTAMP WITH TIME ZONE '2019-07-01 06:30:00 CET', '{{Select1.selectedOptionLabel}}', 'Male', '', 'kev@gmail.com', '', 'HR', '2019-07-01', '8343141351');

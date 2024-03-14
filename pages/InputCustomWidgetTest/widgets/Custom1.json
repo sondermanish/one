@@ -1,0 +1,62 @@
+{
+    "mobileBottomRow": 38,
+    "widgetName": "Custom1",
+    "onClick": "{{showAlert(\"test!!!\", \"\")}}",
+    "srcDoc": {
+        "css": "body {\n  font-family: Arial, sans-serif;\n  margin: 20px;\n}\n\n#input-widget {\n  text-align: center;\n}\n\nlabel {\n  margin-right: 10px;\n}\n\ninput {\n  padding: 8px;\n  font-size: 16px;\n  margin-right: 10px;\n}\n\nbutton {\n  padding: 8px 15px;\n  font-size: 16px;\n  cursor: pointer;\n}\n\np {\n  margin-top: 10px;\n  font-size: 18px;\n}\n",
+        "js": "appsmith.onReady(() => {\n  const input = document.getElementById('input');\n  const button = document.getElementById('button');\n  button.innerHTML = appsmith.model.name;\n  input.addEventListener(\"keyup\", () => {\n    const output = document.getElementById('output');\n    const value = input.value;\n    if (value.trim() !== '') {\n      output.textContent = `You entered: ${value}`;\n    } else {\n      output.textContent = 'Please enter something.';\n    }\n    appsmith.updateModel({\n      value: input.value\n    });\n  });\n  button.addEventListener(\"click\", () => {\n    appsmith.triggerEvent(\"on1Click\");\n  });\n  appsmith.onModelChange(model => {\n    button.innerHTML = model.name;\n  });\n});",
+        "html": "<div id=\"input-widget\">\n  <label for=\"inputField\">Type Something:<\/label>\n  <input type=\"text\" id=\"input\">\n  <button id=\"button\" onclick=\"showInput()\">Show Input<\/button>\n  <p id=\"output\"><\/p>\n<\/div>"
+    },
+    "isCanvas": false,
+    "dynamicPropertyPathList": [
+        {"key": "reset_widget"},
+        {"key": "onClick"}
+    ],
+    "displayName": "Custom",
+    "iconSVG": "/static/media/icon.867bcc8399fa3f897d425d72690b86e4.svg",
+    "searchTags": ["external"],
+    "topRow": 1,
+    "bottomRow": 31,
+    "parentRowSpace": 10,
+    "type": "CUSTOM_WIDGET",
+    "hideCard": false,
+    "mobileRightColumn": 38,
+    "parentColumnSpace": 14.140625,
+    "dynamicTriggerPathList": [
+        {"key": "reset_widget"},
+        {"key": "onClick"}
+    ],
+    "dynamicBindingPathList": [
+        {"key": "theme"},
+        {"key": "defaultModel"}
+    ],
+    "leftColumn": 18,
+    "defaultModel": "{\n  \"name\": \"{{Table1.selectedRow.tagline}}\"\n}",
+    "theme": "{{appsmith.theme}}",
+    "events": [
+        "reset_widget",
+        "test",
+        "onClick"
+    ],
+    "key": "x8qc3t2ykh",
+    "isDeprecated": false,
+    "rightColumn": 50,
+    "test": "{{}}",
+    "isSearchWildcard": true,
+    "dynamicHeight": "FIXED",
+    "widgetId": "q01eqpwhnh",
+    "reset_widget": "{{const handleReset = () => {\n  setCurrentIndex(0);\n  appsmith.triggerEvent(\"onResetClick\");\n};}}",
+    "isVisible": true,
+    "version": 1,
+    "uncompiledSrcDoc": {
+        "css": "body {\n  font-family: Arial, sans-serif;\n  margin: 20px;\n}\n\n#input-widget {\n  text-align: center;\n}\n\nlabel {\n  margin-right: 10px;\n}\n\ninput {\n  padding: 8px;\n  font-size: 16px;\n  margin-right: 10px;\n}\n\nbutton {\n  padding: 8px 15px;\n  font-size: 16px;\n  cursor: pointer;\n}\n\np {\n  margin-top: 10px;\n  font-size: 18px;\n}\n",
+        "js": "appsmith.onReady(() => {\n\n  const input = document.getElementById('input');\n\t\n\tconst button = document.getElementById('button');\n\tbutton.innerHTML = appsmith.model.name;\n\t\n\tinput.addEventListener(\"keyup\", () => {\n\t\tconst output = document.getElementById('output');\n\t\tconst value = input.value;\n\t\t\n\t\tif (value.trim() !== '') {\n\t\t\toutput.textContent = `You entered: ${value}`;\n\t\t} else {\n\t\t\toutput.textContent = 'Please enter something.';\n\t }\n\t\t\n\t\t\n\t\tappsmith.updateModel({\n\t\t\tvalue: input.value\n\t\t})\n\t});  \n\t\n\tbutton.addEventListener\t(\"click\", () => {\n    appsmith.triggerEvent(\"on1Click\");\n\t});\n\t\n\tappsmith.onModelChange((model) => {\n\t\tbutton.innerHTML = model.name;\n\t});\n})\n",
+        "html": "<div id=\"input-widget\">\n  <label for=\"inputField\">Type Something:<\/label>\n  <input type=\"text\" id=\"input\">\n  <button id=\"button\" onclick=\"showInput()\">Show Input<\/button>\n  <p id=\"output\"><\/p>\n<\/div>"
+    },
+    "parentId": "0",
+    "tags": ["Display"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 8,
+    "mobileLeftColumn": 18
+}

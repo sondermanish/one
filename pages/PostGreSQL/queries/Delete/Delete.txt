@@ -1,0 +1,2 @@
+DELETE FROM public."users"
+  WHERE id = {{Input1.text}}; -- Specify a valid condition here. Removing the condition may delete everything in the table!

@@ -1,0 +1,13 @@
+UPDATE PUBLIC.USERS SET
+		ROLE = '{{update_form.fieldState.ROLE.isVisible ? update_form.formData.ROLE : update_form.sourceData.ROLE}}',
+		UPDATEDAT = '{{update_form.fieldState.UPDATEDAT.isVisible ? update_form.formData.UPDATEDAT : update_form.sourceData.UPDATEDAT}}',
+    GENDER = '{{update_form.fieldState.GENDER.isVisible ? update_form.formData.GENDER : update_form.sourceData.GENDER}}',
+		AVATAR = '{{update_form.fieldState.AVATAR.isVisible ? update_form.formData.AVATAR : update_form.sourceData.AVATAR}}',
+		ADDRESS = '{{update_form.fieldState.ADDRESS.isVisible ? update_form.formData.ADDRESS : update_form.sourceData.ADDRESS}}',
+		EMAIL = '{{update_form.fieldState.EMAIL.isVisible ? update_form.formData.EMAIL : update_form.sourceData.EMAIL}}',
+		PHONENO = '{{update_form.fieldState.PHONENO.isVisible ? update_form.formData.PHONENO : update_form.sourceData.PHONENO}}',
+		STATUS = '{{update_form.fieldState.STATUS.isVisible ? update_form.formData.STATUS : update_form.sourceData.STATUS}}',
+		CREATEDAT = '{{update_form.fieldState.CREATEDAT.isVisible ? update_form.formData.CREATEDAT : update_form.sourceData.CREATEDAT}}',
+		DOB = '{{update_form.fieldState.DOB.isVisible ? update_form.formData.DOB : update_form.sourceData.DOB}}',
+		NAME = '{{update_form.fieldState.NAME.isVisible ? update_form.formData.NAME : update_form.sourceData.NAME}}'
+  WHERE ID = {{data_table.selectedRow.ID}};

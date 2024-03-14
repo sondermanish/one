@@ -1,0 +1,2 @@
+DELETE FROM PUBLIC.USERS
+  WHERE ID = {{data_table.triggeredRow.ID}};

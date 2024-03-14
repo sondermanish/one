@@ -1,0 +1,24 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "MainCustomWidgetTest",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "MainCustomWidgetTest_JSObject1",
+  "deleted": false,
+  "gitSyncId": "659d2d6b183ac635e2b6d48e_659d2d9a183ac635e2b6d573"
+}
