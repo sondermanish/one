@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 38,
     "widgetName": "Button1",
-    "onClick": "{{Api1.run().then(() => {\n  showAlert('Success', 'success');\n}).catch(() => {\n  showAlert('Failed to execute', 'error');\n});}}",
+    "onClick": "{{randomAPICall.run().then(() => {\n  showAlert('Success', 'success');\n}).catch(() => {\n  showAlert('Failed to execute', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
