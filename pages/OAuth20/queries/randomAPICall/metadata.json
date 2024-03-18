@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "randomAPICall",
     "datasource": {
       "name": "Oauth2.0",
       "pluginId": "restapi-plugin",
@@ -52,7 +52,7 @@
     "userPermissions": [],
     "createdAt": "2024-01-11T06:43:25Z"
   },
-  "id": "OAuth20_Api1",
+  "id": "OAuth20_randomAPICall",
   "deleted": false,
   "gitSyncId": "64c252a12e389c399f6f64ca_64c26cf42e389c399f6f64d4"
 }

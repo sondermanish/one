@@ -459,7 +459,7 @@
     "widgetId": "0tyy4sx237",
     "enableServerSideFiltering": false,
     "minWidth": 450,
-    "tableData": "{{Api1.data.entries}}",
+    "tableData": "{{randomAPICall.data.entries}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

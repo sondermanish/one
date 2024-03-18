@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "OAuth20_Api1",
-              "name": "Api1",
+              "id": "OAuth20_randomAPICall",
+              "name": "randomAPICall",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
